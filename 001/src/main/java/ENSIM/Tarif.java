@@ -11,6 +11,9 @@ public class Tarif {
 	private BigDecimal prix;
 	
 	Tarif(Porte entree, Porte sortie, BigDecimal prix){
+		this.entree = entree;
+		this.sortie = sortie;
+		this.prix = prix;
 	}
 	
 	Tarif(){

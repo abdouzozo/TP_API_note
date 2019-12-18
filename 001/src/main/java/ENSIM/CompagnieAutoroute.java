@@ -61,14 +61,10 @@ public class CompagnieAutoroute {
 	
 	void ajouterTarif(Tarif tarif) {
 		tarifs.add(tarif);
-		;
-		
 	}
 	
 	void ajouterRoute(Route route) {
-		routes.add(route);
-		//Collections.sort(routes, new OrdrePorteComparator());
-		
+		routes.add(route);		
 	}
 	
 
